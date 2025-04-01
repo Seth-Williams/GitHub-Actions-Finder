@@ -1,23 +1,23 @@
 # GitHub-Actions-Finder
 
-A command-line tool for discovering and analyzing GitHub Actions usage across repositories and organizations. This tool helps DevOps teams, security professionals, and engineering managers gain insights into their GitHub Actions dependencies.
+A command-line tool for discovering and analyzing GitHub Actions usage across repositories and organizations.
 
-🔍 Features
+### 🔍 Features
 
-Scan any repository or entire organization for GitHub Actions usage
-Generate detailed reports in multiple formats (Markdown, Text, HTML)
-Categorize actions into different types (GitHub Official, Third-party, Local Repository, Docker)
-Identify the most frequently used actions across your workflows
-Map actions to workflows to understand where specific actions are used
-Get organization-wide insights for better governance and standardization
+- Scan any repository or entire organization for GitHub Actions usage
+- Generate detailed reports in multiple formats (Markdown, Text, HTML)
+- Categorize actions into different types (GitHub Official, Third-party, Local Repository, Docker)
+- Identify the most frequently used actions across your workflows
+- Map actions to workflows to understand where specific actions are used
+- Get organization-wide insights for better governance and standardization
 
-📋 Requirements
+### 📋 Requirements
 
 - Bash shell environment
 - GitHub CLI installed and authenticated
 - Appropriate GitHub permissions to access the repositories you want to analyze
 
-🚀 Installation
+### 🚀 Installation
 
 Clone this repository:
 ```bash
@@ -31,8 +31,7 @@ Make the script executable:
 chmod +x gh-actions-finder.sh
 ```
 
-
-💻 Usage
+### 💻 Usage
 
 Scanning a Single Repository
 ```bash
@@ -47,7 +46,7 @@ Scanning an Organization
 ./gh-actions-finder.sh --org microsoft all ms-actions-report
 ```
 
-Output Formats
+### Output Formats
 
 - md - Markdown format (default)
 - txt - Plain text format
