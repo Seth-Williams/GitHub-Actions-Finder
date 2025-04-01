@@ -3,6 +3,7 @@
 A command-line tool for discovering and analyzing GitHub Actions usage across repositories and organizations. This tool helps DevOps teams, security professionals, and engineering managers gain insights into their GitHub Actions dependencies.
 
 🔍 Features
+
 Scan any repository or entire organization for GitHub Actions usage
 Generate detailed reports in multiple formats (Markdown, Text, HTML)
 Categorize actions into different types (GitHub Official, Third-party, Local Repository, Docker)
